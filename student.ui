@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Student</class>
+ <widget class="QWidget" name="Student">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Кабинет студента</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>530</y>
+     <width>80</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="showEquations">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>460</y>
+     <width>220</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Получить пример</string>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="showGrades">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>460</y>
+     <width>220</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Узнать оценки</string>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
